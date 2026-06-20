@@ -3,7 +3,7 @@ h1 {
 }
 #heading-2{
     color:blue;
-}
+}  
 .heading{
     color:orange;
 }
@@ -12,4 +12,62 @@ h1 {
     border-style:solid;
     padding: 20px;
     text-align: center;
+}
+.navbar{
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    padding: 15px;
+    background-color: brown;
+    text-align: center;
+}
+.navbar a { 
+    color: aquamarine;
+    padding: 15px;
+    text-decoration: none;
+
+}
+.navbar a:hover {
+    background-color: rgb(213, 66, 66);
+    color: white;
+}
+body {
+    margin: 0px;
+}
+.card {
+    border:2px solid black;
+    width:300px;
+    text-align: center;
+}
+.card img{
+
+    width: 100%;
+
+}
+.card {
+    width: 300px;
+    margin: 50px auto;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    margin-top: 15px;
+}
+
+.card p {
+    color: gray;
+    font-size: 18px;
+}
+button{
+    padding:10px 20px;
+    margin-top:10px;
+    cursor:pointer;
 }
