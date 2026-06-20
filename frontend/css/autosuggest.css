@@ -1,0 +1,14 @@
+#being{
+    color: rgb(154, 98, 244);
+}
+
+
+.heading{
+    text-align: center;
+}
+#topbar{
+    text-align: right;
+}
+.gear{
+    float: left;
+}
