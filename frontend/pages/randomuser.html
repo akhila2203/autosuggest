@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User</title>
+
+    <style>
+
+        body{
+            background-color: #eee;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav{
+            background-color: brown;
+            padding: 20px;
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .card{
+            width: 350px;
+            margin: 50px auto;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .card img{
+            width: 250px;
+            border-radius: 10px;
+        }
+
+        .card h2{
+            margin-top: 20px;
+        }
+
+        .card p{
+            font-size: 20px;
+        }
+
+        button{
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="card.html">Card</a>
+        <a href="toggle.html">Toggle</a>
+        <a href="randomuser.html">Random User</a>
+    </nav>
+
+    <div class="card">
+
+        <img id="img" src="" alt="User Image">
+
+        <h2 id="name"></h2>
+
+        <p id="gender"></p>
+
+        <p id="age"></p>
+
+        <p id="email"></p>
+
+        <button onclick="getUser()">
+            Random User
+        </button>
+
+    </div>
+
+    <script src="../js/randomuser.js"></script>
+
+</body>
+</html>
